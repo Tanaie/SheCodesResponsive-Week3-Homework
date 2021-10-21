@@ -50,6 +50,17 @@ h4 {
   cursor: pointer;
 }
 
+.launch-buttons {
+  color: #ffffff;
+  margin-right: 15px;
+  padding: 20px;
+  border: 1px solid #6c63ff;
+  box-shadow: var(--box-shadow);
+  background: #6c63ff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 .about-me {
   color: #6c63ff;
   margin-left: 15px;
@@ -119,4 +130,26 @@ h4 {
 .row {
   width: 100%;
   max-width: 100%;
+}
+
+@media (max-width: 1000px) {
+  h1 {
+    color: red;
+  }
+
+  .launch-buttons {
+    color: #ffffff;
+    margin-right: 15px;
+    padding: 15px;
+    border: 1px solid #6c63ff;
+    box-shadow: var(--box-shadow);
+    background: #6c63ff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .col-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
 }
