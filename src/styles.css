@@ -1,0 +1,122 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --third-color: rgb(83, 83, 83);
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --app-text-align: left;
+}
+
+h2 {
+  margin-top: 60px;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+h1 {
+  font-size: 70px;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 15px;
+}
+
+h3 {
+  margin-top: 0px;
+  text-align: center;
+  color: var(--third-color);
+  margin-bottom: 30px;
+}
+
+h4 {
+  margin-top: 50px;
+  text-align: center;
+  color: var(--third-color);
+  margin-bottom: 30px;
+}
+
+.font-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-me {
+  color: #ffffff;
+  margin-right: 15px;
+  padding: 20px;
+  border: 1px solid #6c63ff;
+  box-shadow: var(--box-shadow);
+  background: #6c63ff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.about-me {
+  color: #6c63ff;
+  margin-left: 15px;
+  padding: 20px;
+  border: 1px solid #6c63ff;
+  cursor: pointer;
+
+  background: transparent;
+  border-radius: 5px;
+}
+
+.about-me-content {
+  display: flex;
+  justify-content: space-evenly;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.box-left {
+  background: #6b63ff31;
+  padding: 20px;
+  margin: 15px 15px 15px 300px;
+}
+
+.box-right {
+  background: #6b63ff31;
+  padding: 20px;
+  margin: 15px 300px 15px 15px;
+}
+
+.backto {
+  text-align: center;
+}
+
+.yoga-app,
+.weather-app,
+.yogurt-app {
+  margin-top: 60px;
+}
+
+.app-header {
+  text-align: var(--app-text-align);
+  font-size: 48px;
+  margin-top: 0px;
+}
+
+.app-text {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.button-hype {
+  color: white;
+  text-decoration: none;
+}
+
+.about-me-text {
+  font-size: 18px;
+  padding: 10px;
+}
+
+.about-pic {
+  max-width: 420px;
+}
+
+.row {
+  width: 100%;
+  max-width: 100%;
+}
