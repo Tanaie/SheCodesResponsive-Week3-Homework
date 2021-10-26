@@ -132,9 +132,9 @@ h4 {
   max-width: 100%;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 680px) {
   h1 {
-    color: red;
+    padding-bottom: 10px;
   }
 
   .launch-buttons {
@@ -151,5 +151,49 @@ h4 {
   .col-6 {
     flex: 0 0 auto;
     width: 50%;
+  }
+}
+
+@media (max-width: 575px) {
+  h1 {
+    margin-top: 10px;
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  img {
+    display: none;
+  }
+
+  .app-header {
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .app-text {
+    text-align: center;
+  }
+
+  .col-6 {
+    width: 50%;
+  }
+
+  .launch-buttons {
+    color: #ffffff;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #6c63ff;
+    box-shadow: var(--box-shadow);
+    background: #6c63ff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .button-hype {
+    text-align: center;
   }
 }
